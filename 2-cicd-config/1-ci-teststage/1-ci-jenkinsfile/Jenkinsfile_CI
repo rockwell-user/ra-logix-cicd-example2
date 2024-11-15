@@ -11,9 +11,9 @@
 pipeline {
     agent any // Uses any available agent (node).
 
-    triggers { 
-        pollSCM('* * * * *') // Poll every 1 minute. Change this polling frequency based on system performance & CI/CD system needs.
-    }
+    // triggers { 
+    //     pollSCM('* * * * *') // Poll every 1 minute. Change this polling frequency based on system performance & CI/CD system needs.
+    // }
     
     // Define environmental variables here.
     environment {
